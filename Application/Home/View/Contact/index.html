@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$Think.lang.title}-{$Think.lang.lianxi}</title>
+<meta http-equiv="description" content="{$contact.l_name},{$Think.lang.dizhi}:{$contact.l_addr},{$Think.lang.dianhua}:{$contact.l_tel1},{$Think.lang.wangzhi}:{$contact.l_web},QQ:{$contact.l_qq},EML:{$contact.l_email}" />
+<meta name="keywords" content="{$contact.l_name}" />
+<link href="__ROOT__/public/qiancss/common.css" type="text/css" rel="stylesheet"/>
+<link href="__ROOT__/public/qiancss/lainxi.css" type="text/css" rel="stylesheet"/>
+<script src="__ROOT__/public/qianjs/jquery-1.7.2.min.js"></script>
+<script src="__ROOT__/public/qianjs/common.js"></script>
+<script type="text/javascript">
+		//自动获取左边的高度
+		$().ready(function(){
+			var h=$(".ciLeft").height();
+			//将高度的值赋给右边的高度
+			$(".ciRight").css('min-height',h);
+		});
+		function check(){
+			if(document.frm.dianhua.value==''){
+				alert('电话号码不能为空');
+				document.frm.dianhua.focus();
+				return false;
+			}
+		} 
+</script>
+</head>
+
+<body>
+
+<!--——————标题栏 开始——————-->
+<include file='Public:top'/>
+<div class="titleAll">
+	<div class="title clearfix">
+    	
+		<include file="Public:logo"/>
+        
+        <div class="tRight">
+        	<!--——————导航栏 开始——————-->
+            <div class="nav">
+                <ul class="clearfix">
+                    <li><a href="__MODULE__/Index/index.html">{$Think.lang.shouye}</a></li>
+                    <li><a href="__MODULE__/Company/index.html">{$Think.lang.guanyu}</a></li>
+                    <li><a href="__MODULE__/News/index.html">{$Think.lang.xinwen}</a></li>
+                    <li><a href="__MODULE__/Product/index/cid/8.html">{$Think.lang.chanpin}</a></li>
+                    <li><a href="__MODULE__/Sale/index.html">{$Think.lang.xiaoshou}</a></li>
+                    <li><a href="__MODULE__/Emyployee/index.html">{$Think.lang.renli}</a></li>
+                    <li class="current differ"><a href="__MODULE__/Contact/index.html">{$Think.lang.lianxi}</a></li>
+                </ul>
+            </div>
+<!--——————导航栏 结束——————-->
+        </div>
+    </div>
+</div>
+<!--——————标题栏 结束——————-->
+
+<!--——————内容 开始——————-->
+<div class="content">
+	<!--——————banner 开始——————-->
+    <div class="banner">
+    	<img src="__ROOT__/public/img/{$Think.lang.lianxibanner}"/>
+    </div>
+    <!--——————banner 结束——————-->
+    
+    <!--——————标题 开始——————-->
+    <!--<div class="cHead"></div>-->
+    <!--——————标题 结束——————-->
+    
+    <div class="cIn clearfix">
+   	  <div class="ciLeft">
+        	<div class="cilTop">
+            	<h3>{$Think.lang.lianxiwomen}</h3>
+            </div>
+            <div class="fenlei">
+           	  <ul>
+                	<li class="current"><a href="javascript:">{$Think.lang.lianxifangshi}</a></li>
+                	<li><a href="javascript:">{$Think.lang.kehuliuyan}</a></li>
+                </ul>
+            </div>
+            
+            <!-- 加载左侧页面 -->
+       		<include file="Public:left"/>
+        </div>
+        
+        
+      <div class="ciRight gongsijianjie current" >
+       		<div class="cirHead clearfix">
+            	<h3>{$Think.lang.lianxifangshi}</h3>
+                <p>{$Think.lang.current}：<a href="__MODULE__/Index/index.html">{$Think.lang.home}</a>><a href="__MODULE__/Contact/index.html">{$Think.lang.lianxiwomen}</a>><a href="javascript:;">{$Think.lang.lianxifangshi}</a></p>
+          	</div>
+            <div class="text clearfix">
+            	
+            	<div class="center" style="width:730px;position: relative;margin-bottom: 40px;">
+                	<p class="titleBig">{$contact.l_name}</p>
+                    <p class="titleBig" style="position: absolute;left: 300px;top:0px">Beijing Yuandahai Technology Co., Ltd. </p>
+                    <p>电话:010-67569632 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel:010-67569632</p>
+                    <p>传真:010-60227072 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax:010-60227072</p>
+                    <p>地址:北京市大兴区金星西路5号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add: Room 1911 ,Bild. B ,Greenland Central<br>绿地中央广场B座1911&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plaza,
+                      No.5 Jinxing West Road, Daxing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;District , Beijing , China  P . C . 102600</p>
+                    
+                    <p>http://www.bjydwy.net &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.bjydwy.net                               </p>
+                    <p>邮箱: bjydwy@hotmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail: bjydwy@hotmail.com</p>
+                </div>
+                <div class="right" style="width:200px;">
+                	<img src="__ROOT__/public/images/{$contact.l_erweima}" width='119' height='119'/>
+                    <p style="text-align:center;">{$Think.lang.saomiao}</p>
+                </div>
+                <br>
+                <br>
+        </div>
+        	<!-- 此处添加公司具体地址 -->
+        	<div style="width:936px;height:480px">
+        		
+ 
+ <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=8GIjqZxf3FUuOtlWCkd8xqOr"></script>
+    <div style="width:936px;height:480px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+
+
+                <script type="text/javascript">
+                    //创建和初始化地图函数：
+                    function initMap(){
+                        createMap();//创建地图
+                        setMapEvent();//设置地图事件
+                        addMapControl();//向地图添加控件
+                        addMapOverlay();//向地图添加覆盖物
+                    }
+                    function createMap(){
+                        map = new BMap.Map("map");
+                        map.centerAndZoom(new BMap.Point(116.339439,39.77041),18);
+                    }
+                    function setMapEvent(){
+                        map.enableScrollWheelZoom();
+                        map.enableKeyboard();
+                        map.enableDragging();
+                        map.enableDoubleClickZoom()
+                    }
+                    function addClickHandler(target,window){
+                        target.addEventListener("click",function(){
+                            target.openInfoWindow(window);
+                        });
+                    }
+                    function addMapOverlay(){
+                        var markers = [
+                            {content:"地址:北京市大兴区金星西路5号绿地中央广场B座1911    <br/>    电话:010-67569632",title:"北京远达海科技有限公司",imageOffset: {width:-46,height:-21},position:{lat:39.77041,lng:116.339439}},
+                        ];
+                        for(var index = 0; index < markers.length; index++ ){
+                            var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+                            var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+                                    imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+                                })});
+                            var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+                            var opts = {
+                                width: 200,
+                                title: markers[index].title,
+                                content:markers[index].content,
+                                enableMessage: false
+                            };
+                            var infoWindow = new BMap.InfoWindow(markers[index].content,opts);  // 创建信息窗口对象
+                            marker.setLabel(label);
+                            map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
+                            // var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+                            // marker.setLabel(label);
+                            // addClickHandler(marker,infoWindow);
+                            map.addOverlay(marker);
+                        };
+                        var labels = [
+                        ];
+                        for(var index = 0; index < labels.length; index++){
+                            var opt = { position: new BMap.Point(labels[index].position.lng,labels[index].position.lat )};
+                            var label = new BMap.Label(labels[index].content,opt);
+                            map.addOverlay(label);
+                        };
+                    }
+                    //向地图添加控件
+                    function addMapControl(){
+                        var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+                        scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+                        map.addControl(scaleControl);
+                        var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+                        map.addControl(navControl);
+                        var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+                        map.addControl(overviewControl);
+                    }
+                    var map;
+                    initMap();
+                </script>
+
+				
+        	</div>
+        </div>
+        <!--ciRight-->
+        
+        <div class="ciRight qiyeweenhua">
+       		<div class="cirHead clearfix">
+            	<h3>{$Think.lang.kehuliuyan}</h3>
+                <p>{$Think.lang.current}：<a href="__MODULE__/Index/index.html">{$Think.lang.home}</a>><a href="__MODULE__/Contact/index.html">{$Think.lang.lianxiwomen}</a>><a href="javascript:;">{$Think.lang.kehuliuyan}</a></p>
+          	</div>
+            <div class="text">
+            <form name='frm' action="__MODULE__/Contact/add.html" method='post' onsubmit="return check()">
+            	<label for="Name">{$Think.lang.xingming}：<input id="Name" name="name" type="text" /></label>
+               
+                <label for="dianhua"> {$Think.lang.dianhua}：<input id="dianhua" name="dianhua" type="text" /></label><br>
+                <div class="liuyan clearfix">
+                <span>{$Think.lang.liuyan}：</span><textarea name='content'></textarea>
+                </div>
+                <div style="margin-right:300px;"><input class="tijiao" type="submit" value="{$Think.lang.tijiao}"/></div>
+            </form>
+			
+			
+			
+			
+	<div class="tupian clearfix">		
+		
+                <div class="tupian clearfix">
+                	<img src="__ROOT__/public/img/{$Think.lang.lianxiimg}" width="326" height="309">
+                </div>
+		
+            </div> 
+        </div>
+        <!--ciRight-->
+
+    </div>
+    
+</div>
+<!--——————内容 结束——————-->
+
+<include file="Public:bottom"/>
+
+<!--——————footer2 结束——————-->
+
+</body>
+</html>

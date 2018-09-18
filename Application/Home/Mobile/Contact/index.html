@@ -1,0 +1,100 @@
+<include file="Public:header"/>
+<style>
+.b-ctn3 .bty2 img{ height:auto; width:50%}
+.b-ctn3 .bty2 p {
+    text-indent:inherit;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+</style>
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>联系我们</h3>
+  </div>
+  
+</section>
+<section> 
+    <!--百科导航-->
+    <div class="t-ctn t-ctn2 b-ctn3">
+      <h3> <a> {$data.name} </a> </h3>
+      <!--标题-->
+      <div class="bty2">
+      <div class="lxwm content">
+	<p class="titleBig">{$contact.l_name}</p><br/>
+                    <!--<p>全国统一热线：{$contact.l_hotline} </p>-->
+                    <p>{$Think.lang.dianhua}：{$contact.l_tel1}</p>
+                    <p>{$Think.lang.chuanzhen}：{$contact.l_fax} </p>
+                    <p>{$Think.lang.dizhi}：{$contact.l_addr}</p>
+                    <p>{$Think.lang.wangzhi}：{$contact.l_web}</p>
+                    <p>{$Think.lang.youxiang}：{$contact.l_email}</p>
+        </div>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=8GIjqZxf3FUuOtlWCkd8xqOr"></script>
+    <div style="width:580px;height:400px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+   
+
+  <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(124.853682,46.685622),15);
+    }
+    function setMapEvent(){
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"大庆丹诺石油科技开发有限公司",title:"大庆丹诺石油科技开发有限公司",imageOffset: {width:-23,height:-21},position:{lat:46.685622,lng:124.853682}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+      map.addControl(scaleControl);
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:0});
+      map.addControl(navControl);
+      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+      map.addControl(overviewControl);
+    }
+    var map;
+      initMap();
+  </script>
+      </div>
+    </div>
+  </section>
+<div>
+
+
+<include file="Public:footer"/>

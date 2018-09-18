@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.banner { width:100%; }
+.banner img { width:100%; margin:0 auto;}
+.cHead { width:100%; height:66px; background:#ededed;}
+.content { padding:0 0 26px 0;}
+/*cIn*/
+.cIn { width:1196px; margin:0 auto;}
+.ciLeft { float:left; width:230px; margin:-66px 0 0 0;}
+.cilTop{ height:88px; width:230px; background:#2061c4; padding:24px 0 0 0; box-sizing:border-box;}
+.cilTop h3 { font-size:20px; color:#fff; font-family:"微软雅黑"; text-align:center;}
+.fenlei { background:#ededed;}
+.fenlei ul { padding:10px 6px; box-sizing:border-box;}
+.fenlei ul li{ list-style:none; width:100%; height:40px; border-radius:20px; background:#fff; border-bottom:1px solid #cbcbcb; margin:0 0 10px 0; line-height:40px; padding:0 0 0 50px; box-sizing:border-box;}  
+.fenlei ul li a { color:#000; text-decoration:none;}
+.fenlei ul .current { background:#09F;}
+.fenlei ul .current a { color:#fff;}
+
+.contact { margin:20px 0 0 0; border:1px solid #eee; background:#fcfcfc; padding:0 0 33px 0;}
+.contact h4 { height:52px; display:block; width:133px; text-align:center; line-height:52px; border-bottom:4px solid #e70012; font-size:18px; margin:-54px 0 0 0;}
+.contact .xiantiao { display:block; width:100%; height:52px; border:1px solid #eee;}
+.contact img { margin:4px 0 0 4px;}
+.contact .p1 { margin:23px 0 0 0;} 
+.contact p { line-height:23px; padding:0 10px; box-sizing:border-box; color:#7c7c7c;}
+.companyImg02 { margin:15px 0;}
+
+.ciRight { float:left; width:940px; margin:0 0 0 20px;}
+.cirHead { height:66px; line-height:66px; margin:-66px 0 0 0;}
+.cirHead h3 { float:left;}
+.cirHead p { float:right;}
+.cirHead p a { color:#000; text-decoration:none;}
+.ciRight .artical { margin:34px 0 0 0; line-height:32px; color:#666666;}
+
+.showLine ul { margin:33px 0 0 0;}
+.showLine ul li { float:left; list-style:none; margin:0 13px 0 0;}
+.showLine ul li img:hover { opacity:0.4;}
+
+
+
+

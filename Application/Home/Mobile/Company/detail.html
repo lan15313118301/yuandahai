@@ -1,0 +1,27 @@
+<include file="Public/header"/>
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>{$Think.lang.guanyu}</h3>
+    <ul>
+      <foreach name="company" item="v">
+            
+             <li> <a href="__MODULE__/Company/detail/cmid/{$v.cm_id}.html"> {$v.cm_name} </a> </li>
+		</foreach> 	
+    </ul>
+  </div>
+  
+</section>
+
+<section> 
+    <!--百科导航-->
+    <div class="t-ctn t-ctn2 b-ctn3">
+      <h3> <a> {$company1.cm_name} </a> </h3>
+      <!--标题-->
+      <div class="bty2"> {$company1.cm_content}
+        <div class="tab"> </div>
+      </div>
+    </div>
+  </section>
+<include file="Public/footer"/>

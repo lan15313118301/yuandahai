@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>修改公司联系方式</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!-- Bootstrap Core CSS -->
+<link href="__PUBLIC__/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="__PUBLIC__/css/style.css" rel='stylesheet' type='text/css' />
+<!-- Graph CSS -->
+<link href="__PUBLIC__/css/lines.css" rel='stylesheet' type='text/css' />
+<link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet"> 
+<!-- jQuery -->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<!----webfonts--->
+<!---//webfonts--->  
+<!-- Nav CSS -->
+<link href="__PUBLIC__/css/custom.css" rel="stylesheet">
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/js/metisMenu.min.js"></script>
+<script src="__PUBLIC__/js/custom.js"></script>
+<!-- Graph JavaScript -->
+<script src="__PUBLIC__/js/d3.v3.js"></script>
+<script src="__PUBLIC__/js/rickshaw.js"></script>
+<script type="text/javascript" src="__ROOT__/library/kindeditor/kindeditor.js"></script>
+<script type="text/javascript">
+	//加载编辑器
+	var editor;
+	KindEditor.ready(function(e){
+		editor=e.create('[name=l_content]',{
+			'width':"800px",
+			'height':'200px'
+		})
+	})
+	function tijiao(){
+		if(document.frm.l_name.value==''){
+			alert("公司名称不能为空！");
+			document.frm.l_name.focus();
+			return false;
+		}else if(document.frm.l_fax.value==''){
+			alert("公司传真不能为空！");
+			document.frm.l_fax.focus();
+			return false;
+		}else if(document.frm.l_tel1.value==''){
+			alert("公司电话不能为空！");
+			document.frm.l_tel1.focus();
+			return false;
+		}else if(document.frm.l_tel2.value==''){
+			alert("公司电话不能为空！");
+			document.frm.l_tel2.focus();
+			return false;
+		}else if(document.frm.l_qq.value==''){
+			alert("公司联系QQ不能为空！");
+			document.frm.l_qq.focus();
+			return false;
+		}else if(document.frm.l_hotline.value==''){
+			alert("公司热线电话不能为空！");
+			document.frm.l_hotline.focus();
+			return false;
+		}else if(document.frm.l_web.value==''){
+			alert("公司网址不能为空！");
+			document.frm.l_web.focus();
+			return false;
+		}else if(document.frm.l_email.value==''){
+			alert("公司邮箱不能为空！");
+			document.frm.l_email.focus();
+			return false;
+		}else if(document.frm.l_addr.value==''){
+			alert("公司地址不能为空！");
+			document.frm.l_addr.focus();
+			return false;
+		}else if(editor.html()==''){
+			alert("公司简介不能为空！");
+			editor.focus();
+			return false;
+		}
+	}
+	/* function shoutiao(id){
+		var xuanxiang=id.value;
+		if(xuanxiang=='0'){
+			//隐藏添加图片栏
+			$("#tupian").css("display","none");
+		}else if(xuanxiang=='1'){
+			//显示添加图片栏
+			$("#tupian").css("display","block");
+		}
+	} */
+	function clickform(){
+		editor.html("");
+	    document.frm.reset();
+	}
+</script>
+</head>
+<body>
+<div id="wrapper">
+     <!-- Navigation -->
+        <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <!-- 加载头部 -->
+        <include file='Public:top'/>
+			
+        <!-- 加载左边部分 -->
+        <include file='Public:left'/>
+            <!-- /.navbar-static-side -->
+        </nav>
+	    <div id="page-wrapper">
+		        <div class="graphs">
+		        	<div>
+						<div class="clearfix">
+							<h3 class="content-title">修改公司联系方式</h3>
+						</div>
+						<div class="description" >{$msg.role}</div>
+						<div class="col-sm-12">
+                                <a href="__MODULE__/Modlianxi/index.html"  class="btn btn-secondary btn-lo pull-right">修改联系方式</a>
+                            </div>
+						<div class="clearfix" style="margin-bottom:8px;"></div> 
+					</div>
+					<div class="copy">
+						<!-- 网站内容 -->
+						<form name="frm" action="__MODULE__/Addlianxi/add.html" method='post' onsubmit="return tijiao()" enctype="multipart/form-data">
+                                <table>
+                                	
+                                	<tr>
+                                		<td>公司名称：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_name"/><br/><br/></td>
+                                		<td>传真：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_fax"/><br/><br/></td>
+                                	</tr>
+                                	<tr>
+                                		<td>电话1：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_tel1"/><br/><br/></td>
+                                		<td>电话2：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_tel2"/><br/><br/></td>
+                                	</tr>
+                                	<tr>
+                                		<td>QQ：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_qq" /><br/><br/></td>
+                                		<td>全国热线：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_hotline" /><br/><br/></td>
+                                	</tr>
+                                	<tr>
+                                		<td>网址：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_web" /><br/><br/></td>
+                                		<td>邮箱：<br/><br/></td>
+                                		<td align='left'><input type="text" size="30" name="l_email" /><br/><br/></td>
+                                	</tr>
+                                	<tr>
+                                		<td>公司地址：<br/><br/></td>
+                                		<td colspan='3' align='left'><input type="text" name="l_addr" size='50' /><br/><br/></td>
+                                	</tr>
+                                	<tr>
+                                		<td>二维码：<br/><br/></td>
+                                		<td align='left'><img src='__ROOT__/public/images/wutu.png' alt='' title='' width="80" height="80"/><br/><br/><br/></td>
+                                		<td align='left' colspan="2">添加二维码<input id='tupian' type="file" name="upload[]" multiple="multiple"/><br/><br/></td>
+                                	</tr>
+                                	<tr>
+                                		<td>公司简介：<br/><br/></td>
+                                		<td colspan='3'><textarea name='l_content'></textarea><br/></td>
+                                	</tr>
+                                	<tr>
+                                		<td colspan='4' style="text-align:center"><input type="submit" value="确定添加"/>&nbsp;&nbsp;&nbsp;<input type="submit" value="重新填写"/></td>
+                                	</tr>
+                                </table>
+							</form>
+				    </div>
+				</div>
+	      </div> 
+      <!-- /#page-wrapper -->
+   </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</body>
+</html>

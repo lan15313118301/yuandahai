@@ -1,0 +1,310 @@
+[ 2018-07-23T09:39:12+08:00 ] 111.201.231.96 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:17+08:00 ] 111.201.231.96 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T09:39:18+08:00 ] 111.201.231.96 /index.php/Admin/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:22+08:00 ] 111.201.231.96 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:24+08:00 ] 111.201.231.96 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:34+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:37+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:43+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:45+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:49+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:53+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:39:54+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T09:46:51+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:47:03+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:47:05+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:52:54+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T09:52:58+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:53:00+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T09:59:03+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:59:10+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T09:59:12+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T10:05:22+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:05:27+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T10:05:29+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:17:46+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:17:53+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T10:17:54+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T10:18:02+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index/currentPage/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:18:05+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index/currentPage/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:18:07+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:18:13+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:18:14+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:23:34+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/upt/cooperationId/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:23:47+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/save/coid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:23:48+08:00 ] 111.201.231.96 /index.php/Admin/Modcooperation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:45:31+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:45:49+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/upt/cateId/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:45:57+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/save/cateId/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:45:59+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:47:07+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:47:19+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/upt/cateId/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T10:48:48+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/save/cateId/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:48:50+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T10:50:48+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/upt/cateId/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:50:51+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/save/cateId/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:50:53+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:51:06+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/upt/cateId/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T10:51:09+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/save/cateId/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:51:10+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:51:25+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/upt/cateId/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:51:28+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/save/cateId/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:51:30+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:52:42+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/del/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:53:55+08:00 ] 111.201.231.96 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:58:41+08:00 ] 111.201.231.96 /index.php/Admin/Modlianxi/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T10:58:43+08:00 ] 111.201.231.96 /index.php/Admin/Modlianxi/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T11:44:27+08:00 ] 111.201.231.96 /index.php/Admin/Modqita/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T11:44:31+08:00 ] 111.201.231.96 /index.php/Admin/Modqita/upt/qid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T11:45:01+08:00 ] 111.201.231.96 /index.php/Admin/Modqita/save/qid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T11:45:02+08:00 ] 111.201.231.96 /index.php/Admin/Modqita/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-23T11:45:07+08:00 ] 111.201.231.96 /index.php/Admin/Modqita/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-23T11:45:09+08:00 ] 111.201.231.96 /index.php/Admin/Modqita/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

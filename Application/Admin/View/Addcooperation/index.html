@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>合作伙伴添加</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!-- Bootstrap Core CSS -->
+<link href="__PUBLIC__/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="__PUBLIC__/css/style.css" rel='stylesheet' type='text/css' />
+<!-- Graph CSS -->
+<link href="__PUBLIC__/css/lines.css" rel='stylesheet' type='text/css' />
+<link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet"> 
+<!-- jQuery -->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<!----webfonts--->
+<!---//webfonts--->  
+<!-- Nav CSS -->
+<link href="__PUBLIC__/css/custom.css" rel="stylesheet">
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/js/metisMenu.min.js"></script>
+<script src="__PUBLIC__/js/custom.js"></script>
+<!-- Graph JavaScript -->
+<script src="__PUBLIC__/js/d3.v3.js"></script>
+<script src="__PUBLIC__/js/rickshaw.js"></script>
+<script type="text/javascript" src="__ROOT__/library/kindeditor/kindeditor.js"></script>
+<script type="text/javascript">
+	//加载编辑器
+	var editor;
+	KindEditor.ready(function(e){
+		editor=e.create('[name=co_content]',{
+			'width':"800px",
+			'height':'200px'
+		})
+	})
+	function tijiao(){
+		if(document.frm.co_name.value==''){
+			alert("合作单位名称不能为空！");
+			document.frm.co_name.focus();
+			return false;
+		}else if(editor.html()==''){
+			alert("合作单位描述不能为空！");
+			editor.focus();
+			return false;
+		}
+	}
+	/* function shoutiao(id){
+		var xuanxiang=id.value;
+		if(xuanxiang=='0'){
+			//隐藏添加图片栏
+			$("#tupian").css("display","none");
+		}else if(xuanxiang=='1'){
+			//显示添加图片栏
+			$("#tupian").css("display","block");
+		}
+	} */
+	function clickform(){
+		editor.html("");
+	    document.frm.reset();
+	}
+</script>
+</head>
+<body>
+<div id="wrapper">
+     <!-- Navigation -->
+        <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <!-- 加载头部 -->
+        <include file='Public:top'/>
+			
+        <!-- 加载左边部分 -->
+        <include file='Public:left'/>
+            <!-- /.navbar-static-side -->
+        </nav>
+	    <div id="page-wrapper">
+		        <div class="graphs">
+		        	<div>
+						<div class="clearfix">
+							<h3 class="content-title">合作伙伴添加</h3>
+						</div>
+						<div class="description" >{$msg.role}</div>
+						<div class="col-sm-12">
+                                <a href="__MODULE__/Modcooperation/index.html"  class="btn btn-secondary btn-lo pull-right">查看所有合作企业</a>
+                            </div>
+						<div class="clearfix" style="margin-bottom:8px;"></div> 
+					</div>
+					<div class="copy">
+						<!-- 网站内容 -->
+						<form name="frm" action="__MODULE__/Addcooperation/add.html" method="post" enctype="multipart/form-data" onsubmit="return tijiao()">
+						<table>
+							<tr align="left">
+								<td>概述标题：</td>
+								<td colspan='2'><input type="text" size="30" name="co_name"/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>显示图片：</td>
+								<td>
+									<input id='tupian' type="file" name="upload[]" multiple="multiple"/>
+								</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>文章内容：</td>
+								<td colspan='2'><textarea name="co_content"></textarea></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'><input type="submit" value="确定添加"/>&nbsp;&nbsp;<input onclick="clickform()" type="button" value="重新填写"/></td>
+							</tr>
+						</table>
+						</form>
+				    </div>
+				</div>
+	      </div> 
+      <!-- /#page-wrapper -->
+   </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</body>
+</html>

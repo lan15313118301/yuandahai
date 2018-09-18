@@ -1,0 +1,83 @@
+<!--[include file="Public:header" /]-->
+<section>
+  <div class="screening">
+    <h3>产品列表</h3>
+    <ul>
+      <li> <a href="javascript:void(0);" id="0"> <b>按系列分类</b> <b class="screening-icon"></b> </a> </li>
+      <li class="li-jianju"> <a href="javascript:void(0);" id="1"> <b>按DPE分类</b> <b class="screening-icon"></b> </a> </li>
+    </ul>
+  </div>
+  <!--产品系列筛选-->
+  <div class="screening-content">
+    <ul class="sc-ul">
+      <li class="sc-li"> <a href="{:U('product/index?type=1')}" class="sc-a">  科拜巴净颜祛痘系列 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?type=2')}" class="sc-a">  阿苏果毛孔细致系列 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?type=3')}" class="sc-a">  巴西莓毛孔清洁系列 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?type=4')}" class="sc-a">  布里奇果舒缓系列 </a> </li>
+      <li class="sc-li sl_last"> <a href="{:U('product/index?type=5')}" class="sc-a">  雨林密语底妆系列 </a> </li>
+    </ul>
+  </div>
+  <!--护肤需求筛选-->
+  <div class="screening-content">
+    <ul class="sc-ul">
+      <li class="sc-li"> <a href="{:U('product/index?dpe=1')}" class="sc-a">  D预防性肌肤护理 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?dpe=2')}" class="sc-a">  P问题性肌肤护理 </a> </li>
+      <li class="sc-li sl_last"> <a href="{:U('product/index?dpe=3')}" class="sc-a">  PE应急性肌肤护理 </a> </li>
+      
+    </ul>
+  </div>
+</section>
+<section>
+        <div class="t-ctn str2" id="Slidedown_Info">
+        <!--详情标题头及图片-->
+        <div class="pro2">
+    		<img src="{$data.thumb}" alt="{$data.name}" width="640">
+            <!--<a href="#" class="pr2_goumai"></a>-->
+        </div>
+        <!--详情部分-->
+		<div class="str-ctn">
+            <b class="str2_xian sx1"></b>
+			<h3 class="str-biaoti h3_str">{$data.name}</h3>
+			<p class="str-p str-infoTxt">{$data.summary}</p>
+            <div class="guige">
+                
+            </div>
+            <b class="str2_xian sx2"></b>
+			<b class="str-jiage">
+                <b class="j1">{$data.price}</b>
+                <b class="jd">/{$data.weight}</b> 
+			</b>
+			<a href="{$data.href}" class="star-goumai"></a>
+           
+			<ul class="s-info">
+        <!--推荐理由-->
+				<li class="i-liyou section1" id="Slidedown_Reason" style="" >
+					<b class="l2"></b>
+					<b class="l3"></b>
+				</li>
+				<li class="l-l section1"  style="width: 580px;margin: 0px auto;">
+					{$data.content}
+				</li>
+        <!--成分功效-->
+				<li class="i-liyou" id="Slidedown_Benefit" onclick="_gaq.push(['_trackEvent', 'producdetail','OpenAndClose', '{$data.name}']);">
+					<b class="l2 l2-2"></b>
+					<b class="l3"></b>
+				</li>
+				<li class="l-g" style="width: 580px;margin: 0px auto;">
+					{$data.content1}
+				</li>
+        <!--明星达人推荐-->
+				
+                
+			</ul>
+		</div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+<!--[include file="Public:footer" /]-->

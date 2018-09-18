@@ -1,0 +1,53 @@
+<!--[include file="Public:header" /]-->
+<section>
+  <div class="screening">
+    <h3>产品列表</h3>
+    <ul>
+      <li> <a href="javascript:void(0);" id="0"> <b>按系列分类</b> <b class="screening-icon"></b> </a> </li>
+      <li class="li-jianju"> <a href="javascript:void(0);" id="1"> <b>按DPE分类</b> <b class="screening-icon"></b> </a> </li>
+    </ul>
+  </div>
+  <!--产品系列筛选-->
+  <div class="screening-content">
+    <ul class="sc-ul">
+      <li class="sc-li"> <a href="{:U('product/index?type=1')}" class="sc-a">  科拜巴净颜祛痘系列 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?type=2')}" class="sc-a">  阿苏果毛孔细致系列 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?type=3')}" class="sc-a">  巴西莓毛孔清洁系列 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?type=4')}" class="sc-a">  布里奇果舒缓系列 </a> </li>
+      <li class="sc-li sl_last"> <a href="{:U('product/index?type=5')}" class="sc-a">  雨林密语底妆系列 </a> </li>
+    </ul>
+  </div>
+  <!--护肤需求筛选-->
+  <div class="screening-content">
+    <ul class="sc-ul">
+      <li class="sc-li"> <a href="{:U('product/index?dpe=1')}" class="sc-a">  D预防性肌肤护理 </a> </li>
+      <li class="sc-li"> <a href="{:U('product/index?dpe=2')}" class="sc-a">  P问题性肌肤护理 </a> </li>
+      <li class="sc-li sl_last"> <a href="{:U('product/index?dpe=3')}" class="sc-a">  PE应急性肌肤护理 </a> </li>
+      
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="p-banner"> <img id="titlePicImg" src="__PUBLIC__/mobile/img/bn1.jpg" alt="新生塑颜系列" class="titlePic" width="640" height="420"> </div>
+</section>
+<section>
+  <div class="p-product">
+    <ul>
+    	<!--[volist name="list" id="v"]-->
+            <!--[if condition="$i%2 neq 0"]-->
+                <!--[if condition="$i == 1 || $i == 2"]--><li class="li-right"><!--[else/]--><li class="li-right li-top"><!--[/if]-->
+            <!--[else/]-->
+                <!--[if condition="$i == 1 || $i == 2"]--><li class=""><!--[else/]--><li class=" li-top"><!--[/if]-->
+            <!--[/if]-->
+           <a href="{:U('product/show?id='.$v['id'].'')}"> <img src="{$v.thumb}" class="proPic" alt="{$v.name}" width="248" height="248"> </a> <a href="{:U('product/show?id='.$v['id'].'')}" class="a-biaoti">
+            <p class="p_sj p_two">{$v.name}</p>
+            </a> <a href="{:U('product/show?id='.$v['id'].'')}" class="a-p a_padding">
+            <p class="p_two p_sj2">{$v.summary|cut_str=90} </p>
+            </a> <a href="#" class="a-jiaqian a_jiage">￥{$v.price}<b class="b_sj">/{$v.weight}</b></a> <a href="{:U('product/show?id='.$v['id'].'')}" class="a-goumai"></a> </li>
+          <!--[/volist]-->
+    </ul>
+  </div>
+</section>
+<div style="clear:both"></div>
+
+<!--[include file="Public:footer" /]-->

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+<!--banner-->
+.banner { width:100%; }
+.banner img { width:100%; margin:0 auto;}
+.cHead { width:100%; height:66px; background:#ededed;}
+.content { padding:0 0 26px 0;}
+/*cIn*/
+.cIn { width:1196px; margin:0 auto;}
+.ciLeft { float:left; width:230px; margin:-66px 0 0 0;}
+.cilTop{ height:88px; width:230px; background:#2061c4; padding:24px 0 0 0; box-sizing:border-box;}
+.cilTop h3 { font-size:20px; color:#fff; font-family:"微软雅黑"; text-align:center;}
+.fenlei { background:#ededed;}
+.fenlei ul { padding:10px 6px; box-sizing:border-box;}
+.fenlei ul li{ list-style:none; width:100%; height:40px; border-radius:20px; background:#fff; border-bottom:1px solid #cbcbcb; margin:0 0 10px 0; line-height:40px; padding:0 0 0 50px; box-sizing:border-box;}  
+.fenlei ul li a { color:#000; text-decoration:none;}
+.fenlei ul .current { background:#09F;}
+.fenlei ul .current a { color:#fff;}
+.contact { margin:20px 0 0 0; border:1px solid #eee; background:#fcfcfc; padding:0 0 33px 0;}
+.contact h4 { height:52px; display:block; width:133px; text-align:center; line-height:52px; border-bottom:4px solid #e70012; font-size:18px; margin:-54px 0 0 0;}
+.contact .xiantiao { display:block; width:100%; height:52px; border:1px solid #eee;}
+.contact img { margin:4px 0 0 4px;}
+.contact .p1 { margin:23px 0 0 0;} 
+.contact p { line-height:23px; padding:0 10px; box-sizing:border-box; color:#7c7c7c;}
+.companyImg02 { margin:15px 0;}
+
+.ciRight { float:left; width:940px; margin:0 0 0 20px;}
+.cirHead { height:66px; line-height:66px; margin:-66px 0 0 0;}
+.cirHead h3 { float:left;}
+.cirHead p { float:right;}
+.cirHead p a { color:#000; text-decoration:none;}
+.ciRight .artical { margin:34px 0 0 0; line-height:32px; color:#666666;}
+
+/*showLine*/
+.showLine { margin:60px 0 0 0;}
+.showLine div { float:left;}
+.cImg01 { width:232px;}
+.cImg02 { width:240px; height:211px; background:#f1f1f1; padding:0 15px; box-sizing:border-box;}
+.cImg02 h4 { margin:42px 0 0 0;}
+.cImg02 p { line-height:24px; margin:15px 0 0 0; color:#666;}
+.cImg04 {  width:240px; height:211px; background:#f1f1f1; padding:0 15px; box-sizing:border-box;}
+.cImg04 h4 { margin:42px 0 0 0;}
+.cImg04 p { line-height:24px; margin:15px 0 0 0; color:#666;}
+.cImg05 { width:686px; height:263px; background:#2061c4; color:#fff; padding:0 15px; box-sizing:border-box;}
+.cImg05 h4 { margin:50px 0 0 0;}
+.cImg05 .differ { margin:15px 0 0 0;}
+.cImg05 p { line-height:24px;}
+
+.cImg07 {width:245px; height:211px; background:#f1f1f1; padding:0 15px; box-sizing:border-box; }
+.cImg07 h4 , .cImg09 h4 { margin:30px 0 0 0;}
+.cImg07 p ,.cImg09 p { line-height:24px; margin:15px 0 0 0; color:#666;}
+.cImg09 {width:271px; height:211px; background:#f1f1f1; padding:0 15px; box-sizing:border-box; }
+
+
+
+
+
+
+
+

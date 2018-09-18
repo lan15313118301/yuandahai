@@ -1,0 +1,32 @@
+<include file="Public:header" />
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>新闻资讯</h3>
+    <ul>
+      <li><a href="__MODULE__/News/index/n_cate/gongsi.html">{$Think.lang.gongsixinwen}</a></li>
+                	<li><a href="__MODULE__/News/index/n_cate/hangye.html">{$Think.lang.hangyexinwen}</a></li>
+    </ul>
+  </div>
+</section>
+
+<div class="t-ctn t-ctn2 b-ctn3">
+		<h3>
+			<a >
+
+				{$detailnews.n_cate}
+			</a>
+		</h3>
+    <!--标题-->
+		<div class="bty2">
+			<h2>
+				{$detailnews.n_title}
+			</h2>
+            <a>{$detailnews.n_time|date='Y-m-d',###} </a>
+			{$detailnews.n_content}
+			
+		</div>
+	</div>
+
+
+<include file="Public:footer" />

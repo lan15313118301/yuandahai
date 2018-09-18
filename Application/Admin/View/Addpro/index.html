@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>发布产品</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!-- Bootstrap Core CSS -->
+<link href="__PUBLIC__/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="__PUBLIC__/css/style.css" rel='stylesheet' type='text/css' />
+<!-- Graph CSS -->
+<link href="__PUBLIC__/css/lines.css" rel='stylesheet' type='text/css' />
+<link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet"> 
+<!-- jQuery -->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<!----webfonts--->
+<!---//webfonts--->  
+<!-- Nav CSS -->
+<link href="__PUBLIC__/css/custom.css" rel="stylesheet">
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/js/metisMenu.min.js"></script>
+<script src="__PUBLIC__/js/custom.js"></script>
+<!-- Graph JavaScript -->
+<script src="__PUBLIC__/js/d3.v3.js"></script>
+<script src="__PUBLIC__/js/rickshaw.js"></script>
+<script type="text/javascript" src="__ROOT__/library/kindeditor/kindeditor.js"></script>
+<script type="text/javascript">
+	//加载编辑器
+	var editor;
+	var eneditor;
+	KindEditor.ready(function(e){
+		editor=e.create('[name=p_content]',{
+			'width':"800px",
+			'height':'100px'
+		});
+		eneditor=e.create('[name=enp_content]',{
+			'width':"800px",
+			'height':'100px'
+		});
+	})
+	function tijiao(){
+		if(document.frm.p_name.value==''){
+			alert("产品名称不能为空！");
+			document.frm.p_name.focus();
+			return false;
+		}else if(document.frm.p_intro.value==''){
+			alert("产品介绍不能为空！");
+			document.frm.p_intro.focus();
+			return false;
+		}else if(editor.html()==''){
+			alert("产品简介不能为空！");
+			editor.focus();
+			return false;
+		}else if(document.frm.enp_name.value==''){
+			alert("English产品名称不能为空！");
+			document.frm.enp_name.focus();
+			return false;
+		}else if(document.frm.enp_intro.value==''){
+			alert("English产品介绍不能为空！");
+			document.frm.enp_intro.focus();
+			return false;
+		}else if(eneditor.html()==''){
+			alert("English产品简介不能为空！");
+			eneditor.focus();
+			return false;
+		}
+	}
+	function clickform(){
+		editor.html("");
+		eneditor.html("");
+	    document.frm.reset();
+	}
+</script>
+</head>
+<body>
+<div id="wrapper">
+     <!-- Navigation -->
+        <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <!-- 加载头部 -->
+        <include file='Public:top'/>
+			
+        <!-- 加载左边部分 -->
+        <include file='Public:left'/>
+            <!-- /.navbar-static-side -->
+        </nav>
+	    <div id="page-wrapper">
+		        <div class="graphs">
+		        	<div>
+						<div class="clearfix">
+							<h3 class="content-title">发布产品</h3>
+						</div>
+						<div class="description" >{$msg.role}</div>
+						<div class="col-sm-12">
+                                <a href="__MODULE__/Modpro/index.html"  class="btn btn-secondary btn-lo pull-right">查看所有产品</a>
+                            </div>
+						<div class="clearfix" style="margin-bottom:8px;"></div> 
+					</div>
+					<div class="copy">
+						<!-- 网站内容 -->
+						<form name="frm" action="__MODULE__/Addpro/add.html" method="post" enctype="multipart/form-data" onsubmit="return tijiao()">
+						<table>
+						<tr align="left">
+								<td>所属分类1：</td>
+								<td colspan='2'>
+									<select name="c_id">
+										<foreach name="cate" item="v">
+											<option value="{$v.c_id}">{$v.c_name}</option>
+										</foreach>	
+									</select>
+								</td>
+							</tr><tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>关键字：</td>
+								<td colspan='2'><textarea rows="1" cols="40" name="p_keys"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan='3'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td colspan='3'>*************中文部分************</td>
+							</tr>
+							<tr>
+								<td colspan='3'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>产品标题：</td>
+								<td colspan='2'><input type="text" size="50" name="p_name"/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							
+							<tr align="left">
+								<td>产品图片：</td>
+								<td>
+									<input id='tupian' type="file" name="upload[]" multiple="multiple"/>
+								</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							
+							<tr align="left">
+								<td>一句话简介：</td>
+								<td colspan='2'><textarea rows="1" cols="70" name="p_intro"></textarea></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>产品介绍：</td>
+								<td colspan='2'><textarea name="p_content"></textarea></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td colspan='3'>*************English部分************</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>English标题：</td>
+								<td colspan='2'><input type="text" size="50" name="enp_name"/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>English图片：</td>
+								<td>
+									<input id='tupian' type="file" name="enupload[]" multiple="multiple"/>
+								</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>English简介：</td>
+								<td colspan='2'><textarea rows="1" cols="70" name="enp_intro"></textarea></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>English介绍：</td>
+								<td colspan='2'><textarea name="enp_content"></textarea></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'><input type="submit" value="发布产品"/>&nbsp;&nbsp;<input onclick="clickform()" type="button" value="重新填写"/></td>
+							</tr>
+						</table>
+						</form>
+				    </div>
+				</div>
+	      </div> 
+      <!-- /#page-wrapper -->
+   </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</body>
+</html>

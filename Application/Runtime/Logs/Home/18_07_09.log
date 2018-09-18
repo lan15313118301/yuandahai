@@ -1,0 +1,399 @@
+[ 2018-07-09T00:23:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dn_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_banner` ORDER BY b_pai desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_gaishu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_gaishu`  [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='检测设备' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0156s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='生产研发' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='行业新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_cooperation` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_cooperation` ORDER BY co_pai desc,co_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: video D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T01:07:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dn_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_banner` ORDER BY b_pai desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_gaishu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_gaishu`  [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='检测设备' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='生产研发' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='行业新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_cooperation` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_cooperation` ORDER BY co_pai desc,co_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: video D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T02:39:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.031250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046875s ]
+SQL: SHOW COLUMNS FROM `dn_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_banner` ORDER BY b_pai desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_gaishu` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `dn_gaishu`  [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='检测设备' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0313s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='生产研发' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='行业新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_cooperation` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `dn_cooperation` ORDER BY co_pai desc,co_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: video D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-07-09T05:13:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.031250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031250s ]
+SQL: SHOW COLUMNS FROM `dn_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_banner` ORDER BY b_pai desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_gaishu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_gaishu`  [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='检测设备' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='生产研发' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='行业新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_cooperation` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_cooperation` ORDER BY co_pai desc,co_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: video D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T05:13:39+08:00 ] 123.125.71.13 /index.php/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_product` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_cate` ORDER BY c_pai desc,c_id desc  [ RunTime:0.0000s ]
+SQL: select count(*) as zong from dn_cate as c join dn_product as p on c.c_id=p.c_id where c.c_name='破碎筛分' [ RunTime:0.0000s ]
+SQL: select * from dn_cate as c join dn_product as p on c.c_id=p.c_id where c.c_name='无游梁式抽油机' order by p_pai desc,p_id desc limit 0,15 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` ORDER BY n_click desc LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 111 行.
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 111 行.
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 112 行.
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T05:13:40+08:00 ] 123.125.71.86 /index.php/Product/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_product` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dn_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_cate` ORDER BY c_pai desc,c_id desc  [ RunTime:0.0000s ]
+SQL: select count(*) as zong from dn_cate as c join dn_product as p on c.c_id=p.c_id where c.c_name='破碎筛分' [ RunTime:0.0000s ]
+SQL: select * from dn_cate as c join dn_product as p on c.c_id=p.c_id where c.c_name='无游梁式抽油机' order by p_pai desc,p_id desc limit 0,15 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` ORDER BY n_click desc LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 111 行.
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 111 行.
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 112 行.
+NOTIC: [8] Undefined offset: 0 D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T09:11:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.046875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062500s ]
+SQL: SHOW COLUMNS FROM `dn_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_banner` ORDER BY b_pai desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_gaishu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_gaishu`  [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='检测设备' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0156s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='生产研发' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='行业新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dn_cooperation` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_cooperation` ORDER BY co_pai desc,co_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: video D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T09:44:55+08:00 ] 180.76.15.142 /index.php/Home/News/index/n_cate/gongsi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dn_news` WHERE ( n_cate='公司新闻' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` ORDER BY n_click desc LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T12:33:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dn_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_banner` ORDER BY b_pai desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_gaishu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_gaishu`  [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='检测设备' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0313s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='生产研发' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='行业新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_cooperation` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_cooperation` ORDER BY co_pai desc,co_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\da2245feab9f58b4dceab1f100adff9d.php 第 132 行.
+NOTIC: [8] Undefined variable: v D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\da2245feab9f58b4dceab1f100adff9d.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T14:06:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dn_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_banner` ORDER BY b_pai desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_gaishu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_gaishu`  [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='检测设备' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: select * from dn_product as p join dn_cate as c on c.c_id=p.c_id where c.c_name='生产研发' order by p_pai desc,p_id desc limit 0,8 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='行业新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_cooperation` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_cooperation` ORDER BY co_pai desc,co_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: video D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T14:24:03+08:00 ] 180.76.15.24 /index.php/Home/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dn_news` WHERE ( n_cate='公司新闻' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` WHERE ( n_cate='公司新闻' ) ORDER BY n_pai desc,n_id desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` ORDER BY n_click desc LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: think D:\wwwroot\bjhtx\wwwroot\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T15:35:21+08:00 ] 180.76.15.145 /index.php/Home/Sale/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dn_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_cate` ORDER BY c_pai desc,c_id desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_lianxi` WHERE ( l_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_qita` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dn_qita` WHERE ( q_name='销售网络' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dn_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dn_news` ORDER BY n_click desc LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

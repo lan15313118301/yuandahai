@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://m.olay.com.cn/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{$Think.lang.title}</title>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=yes">
+<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css">
+<script async src="__PUBLIC__/mobile/js/analytics.js"></script>
+<script src="__PUBLIC__/mobile/js/gw.js" async></script>
+<script src="__PUBLIC__/mobile/js/jquery.min.js"></script>
+<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi,minimal-ui">
+</head>
+<body style="margin-left: 0px; overflow-y: auto;">
+<header style="float:left; width:640px; height:87px;">
+  <div class="header-ctn"> <a href="__APP__/" class="header-logo" onclick="_gaq.push(['_trackEvent', 'Header','Homepage_TopBar', 'Homepage_TopBar']);"></a> 
+    <!--导航条-->
+    <ul class="header-nav">
+      <li class="i6-left"> <a id="right-nav" href="#right-nav-content" class="header-nav-icon i6 "></a> </li>
+    </ul>
+    <!--导航条-End--> 
+  </div>
+  
+  
+  <!--历史足迹-->
+  <div class="swiper-container footprint swiper-container-horizontal">
+    <div class="swiper-wrapper">
+      <p class="p_zuji2">您还没有浏览过产品，立即搜索，开启美肌之旅</p>
+    </div>
+    <!--<div class="pagination"></div>--> 
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-disabled"></div>
+    <div class="swiper-button-prev swiper-button-disabled"></div>
+  </div>
+  <script type="text/javascript">
+    function Search() {
+        var keyword = $("#txtSearchKey").val();
+        if (keyword == "") {
+            alert("请输入关键字");
+        }
+        else {
+            _gaq.push(['_trackEvent', 'Header', 'Search', 'Searchresult_' + keyword]);
+            window.location = "/ProductSearch.aspx?searchkey=" + $("#txtSearchKey").val();
+
+        }
+    }
+
+    $(document).ready(function () {
+        $("#txtSearchKey").keydown(function (e) {
+            var curKey = e.which;
+            if (curKey == 13) {
+                Search();
+            }
+        });
+
+        $("#btnSearchPro").click(function () {
+            Search();
+        });
+    });
+</script> 
+  <!--历史足迹-End--> 
+  <!--页头—End--> 
+</header>
+<!--页头-End--> 
+<!--侧边导航-->
+<aside>
+  <div id="right-nav-content" class="right-nav" style="position: fixed; top: 0px; height: 100%; z-index: 999999; left: auto; right: -521px; display: none;">
+    <ul>
+      <li class="right-nav-li1"> </li>
+      
+      
+      <li><a href="__MODULE__/Index/index.html"><b class="right-nav-b">{$Think.lang.shouye}</b></a></li>
+      <li><a href="__MODULE__/Company/index.html"><b class="right-nav-b">{$Think.lang.guanyu}</b></a></li>
+      <li><a href="__MODULE__/News/index.html"><b class="right-nav-b">{$Think.lang.xinwen}</b></a></li>
+      <li><a href="__MODULE__/Product/index.html"><b class="right-nav-b">{$Think.lang.chanpin}</b></a></li>
+      <li><a href="__MODULE__/Sale/index.html"><b class="right-nav-b">{$Think.lang.xiaoshou}</b></a></li>
+      <li><a href="__MODULE__/Emyployee/index.html"><b class="right-nav-b">{$Think.lang.renli}</b></a></li>
+      <li><a href="__MODULE__/Contact/index.html"><b class="right-nav-b">{$Think.lang.lianxi}</b></a></li>
+      
+    </ul>
+  </div>
+  <script type="text/javascript">
+    (function () {
+
+        $("#btn_login").click(function () {
+            popWindow("sus-vip2");
+            $("#right-nav").trigger("click");
+
+        })
+        $("#btn_reg").click(function () {
+            popWindow("sus-vip2");
+            $("#right-nav").trigger("click");
+
+        })
+        $(".s-close").click(function () {
+            $(".sus-vip,.zhezhao").fadeOut("100");
+            
+        })
+
+
+    })();
+    function popWindow(windowName) {
+        $(".zhezhao, ." + windowName).fadeIn("100");
+
+    }
+
+
+</script> 
+</aside>

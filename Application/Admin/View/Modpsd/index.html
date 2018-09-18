@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>修改密码</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!-- Bootstrap Core CSS -->
+<link href="__PUBLIC__/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="__PUBLIC__/css/style.css" rel='stylesheet' type='text/css' />
+<!-- Graph CSS -->
+<link href="__PUBLIC__/css/lines.css" rel='stylesheet' type='text/css' />
+<link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet"> 
+<!-- jQuery -->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<!----webfonts--->
+<!---//webfonts--->  
+<!-- Nav CSS -->
+<link href="__PUBLIC__/css/custom.css" rel="stylesheet">
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/js/metisMenu.min.js"></script>
+<script src="__PUBLIC__/js/custom.js"></script>
+<!-- Graph JavaScript -->
+<script src="__PUBLIC__/js/d3.v3.js"></script>
+<script src="__PUBLIC__/js/rickshaw.js"></script>
+<script type="text/javascript" src="__ROOT__/library/kindeditor/kindeditor.js"></script>
+<script type="text/javascript">
+	function tijiao(){
+		if(document.frm.oldpsd.value==''){
+			alert("请输入原密码！");
+			document.frm.oldpsd.focus();
+			return false;
+		}else if(document.frm.password.value==''){
+			alert("请输入新密码！");
+			document.frm.password.focus();
+			return false;
+		}else if(document.frm.dbpsd.value!=document.frm.password.value){
+			alert("两次密码输入不相符，请重新输入！");
+			document.frm.dbpsd.focus();
+			return false;
+		}
+		
+	}
+	function fun(){
+		var pass=$("#user").val();
+		$.ajax({
+			url:'__APP__/Modpsd/check',
+			data:{"password":pass},
+			type:'post',
+			success:function(re){
+				$("#tishi").html(re);
+			}
+		})
+	}
+	function tuichu(){
+		window.location="__MODULE__/Index/index.html";
+	}
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+     <!-- Navigation -->
+        <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <!-- 加载头部 -->
+        <include file='Public:top'/>
+			
+        <!-- 加载左边部分 -->
+        <include file='Public:left'/>
+            <!-- /.navbar-static-side -->
+        </nav>
+	    <div id="page-wrapper">
+		        <div class="graphs">
+		        	<div>
+						<div class="clearfix">
+							<h3 class="content-title">修改密码</h3>
+						</div>
+						<div class="description" >{$msg.role}</div>
+						<div class="col-sm-12">
+                                <a href="__MODULE__/Index/index.html"  class="btn btn-secondary btn-lo pull-right">退回首页</a>
+                            </div>
+						<div class="clearfix" style="margin-bottom:8px;"></div> 
+					</div>
+					<div class="copy">
+						<!-- 网站内容 -->
+						<form name="frm" action="__MODULE__/Modpsd/save.html" method="post" enctype="multipart/form-data" onsubmit="return tijiao()">
+						<table>
+							<tr align="left">
+								<td>&nbsp;</td>
+								<td>原密码：</td>
+								<td colspan='2'><input type="password" onkeyup="fun()" size="25" id='user' name="oldpsd"/></td>
+								<td><span id='tishi'></span></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='4'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>&nbsp;</td>
+								<td>新密码：</td>
+								<td colspan='2'><input type="password" size="25" name="password"/></td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='4'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>&nbsp;</td>
+								<td>再次输入新密码：</td>
+								<td colspan='2'><input type="password" size="25" name="dbpsd"/></td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='4'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>&nbsp;</td>
+								<td>管理员头像：</td>
+								<td colspan='2'><input id='tupian' type="file" name="upload[]" multiple="multiple"/></td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='4'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='3'><input type="submit" value="确定修改"/>&nbsp;&nbsp;<input onclick="tuichu()" type="button" value="退出编辑"/></td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
+						</form>
+				    </div>
+				</div>
+	      </div> 
+      <!-- /#page-wrapper -->
+   </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</body>
+</html>

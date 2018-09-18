@@ -1,0 +1,42 @@
+<include file="Public:header" />
+<section>
+  <div class="screening">
+    <h3>产品列表</h3>
+    <ul>
+      <li> <a href="javascript:void(0);" id="0"> <b>分类</b> <b class="screening-icon"></b> </a> </li>
+    </ul>
+  </div>
+  <!--产品系列筛选-->
+  <div class="screening-content">
+    <ul class="sc-ul">
+      <foreach name='cate2' item='v'>
+      	<li class="sc-li"> <a  href="__MODULE__/Product/index/cid/{$v.c_id}.html" title="{$v.c_name}" class="sc-a">{$v.c_name|cutstr=21}</a> </li>
+           	  	
+                </foreach>	
+    </ul>
+  </div>
+  <!--护肤需求筛选-->
+  
+</section>
+
+<div class="t-ctn t-ctn2 b-ctn3">
+		<h3>
+			<a >
+
+				{$detailnews.n_cate}
+			</a>
+		</h3>
+    <!--标题-->
+		<div class="bty2">
+			<h2>
+				{$product.p_name}
+			</h2>
+            <a>{$product.p_time|date='Y-m-d',###} </a>
+			{$product.p_content}
+			
+		</div>
+	</div>
+
+<div style="clear:both"></div>
+
+<include file="Public:footer" />

@@ -1,0 +1,422 @@
+[ 2018-06-11T11:24:33+08:00 ] 127.0.0.1 /index.php/Admin/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2018-06-11T11:24:42+08:00 ] 127.0.0.1 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-06-11T11:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2018-06-11T13:57:49+08:00 ] 111.201.230.98 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T13:59:11+08:00 ] 111.201.230.98 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T13:59:13+08:00 ] 111.201.230.98 /index.php/Admin/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-06-11T13:59:44+08:00 ] 111.201.230.98 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T13:59:46+08:00 ] 111.201.230.98 /index.php/Admin/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:01:08+08:00 ] 111.201.230.98 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:01:10+08:00 ] 111.201.230.98 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:01:33+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:02:07+08:00 ] 106.120.160.109 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:04:35+08:00 ] 111.201.230.98 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:04:50+08:00 ] 111.201.230.98 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:04:59+08:00 ] 111.201.230.98 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:04:59+08:00 ] 111.201.230.98 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:20+08:00 ] 111.201.230.98 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:22+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:24+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:32+08:00 ] 111.201.230.98 /index.php/Admin/Addnews/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:35+08:00 ] 111.201.230.98 /index.php/Admin/Modnews/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:39+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:50+08:00 ] 111.201.230.98 /index.php/Admin/Modgaishu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:55+08:00 ] 111.201.230.98 /index.php/Admin/Addcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:05:58+08:00 ] 111.201.230.98 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:06:15+08:00 ] 111.201.230.98 /index.php/Admin/Showmessage/huishou.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:06:31+08:00 ] 111.201.230.98 /index.php/Admin/Modqita/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:07:42+08:00 ] 111.201.230.98 /index.php/Admin/Modqita/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:07:47+08:00 ] 111.201.230.98 /index.php/Admin/Modjob/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:17:24+08:00 ] 111.201.230.98 /index.php/Admin/Modgaishu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:17:26+08:00 ] 111.201.230.98 /index.php/Admin/Addcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T14:17:29+08:00 ] 111.201.230.98 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:00:34+08:00 ] 111.201.230.98 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:18:30+08:00 ] 111.201.230.98 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:18:33+08:00 ] 111.201.230.98 /index.php/Admin/Modcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:53:57+08:00 ] 111.201.230.98 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:54:05+08:00 ] 111.201.230.98 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:54:07+08:00 ] 111.201.230.98 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:54:12+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:54:14+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:54:18+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/upt/bid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:54:47+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T15:58:37+08:00 ] 111.201.230.98 /index.php/Admin/Modpro/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:07+08:00 ] 111.201.230.98 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:16+08:00 ] 111.201.230.98 /index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:18+08:00 ] 111.201.230.98 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:21+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:27+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:45+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/del/bid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:46+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:50+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/del/bid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:05:52+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-06-11T18:06:09+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/upt/bid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:06:31+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/upt/bid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:07:00+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/upt/bid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:07:03+08:00 ] 111.201.230.98 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:07:10+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:07:23+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1048:Column 'enb_picture' cannot be null
+ [ SQL语句 ] : INSERT INTO `dn_banner` (`enb_picture`,`b_picture`,`b_time`) VALUES (NULL,'f958825d13c983d5c6e9142f86a7ef58.jpg','1528711642')
+
+[ 2018-06-11T18:07:41+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+ERR: 1048:Column 'enb_picture' cannot be null
+ [ SQL语句 ] : INSERT INTO `dn_banner` (`enb_picture`,`b_picture`,`b_time`) VALUES (NULL,NULL,'1528711661')
+
+[ 2018-06-11T18:07:45+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:07:57+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1048:Column 'enb_picture' cannot be null
+ [ SQL语句 ] : INSERT INTO `dn_banner` (`enb_picture`,`b_picture`,`b_time`) VALUES (NULL,'41b5b19fa03a86d1d24d46a6323586d4.jpg','1528711677')
+
+[ 2018-06-11T18:08:30+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:08:32+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:08:40+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/upt/bid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:08:49+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/save/bid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:08:51+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:09:06+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/upt/bid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:09:20+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/save/bid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:09:22+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:09:31+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/upt/bid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:09:39+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/save/bid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:09:40+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:09:40+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:21:29+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:22:16+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1048:Column 'enb_picture' cannot be null
+ [ SQL语句 ] : INSERT INTO `dn_banner` (`enb_picture`,`b_picture`,`b_time`) VALUES (NULL,'ee5c82343661b92f77f9f56bc62b661b.jpg','1528712536')
+
+[ 2018-06-11T18:22:30+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:22:34+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:22:42+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1048:Column 'enb_picture' cannot be null
+ [ SQL语句 ] : INSERT INTO `dn_banner` (`enb_picture`,`b_picture`,`b_time`) VALUES (NULL,'e90b813f7710ae6d67e3f9bac9cd42f6.jpg','1528712562')
+
+[ 2018-06-11T18:22:54+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:22:57+08:00 ] 111.201.230.98 /index.php/Admin/Modbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:23:03+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-11T18:23:13+08:00 ] 111.201.230.98 /index.php/Admin/Addbanner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1048:Column 'enb_picture' cannot be null
+ [ SQL语句 ] : INSERT INTO `dn_banner` (`enb_picture`,`b_picture`,`b_time`) VALUES (NULL,'40e67009968abaae5c8b7e17a9f14fa7.jpg','1528712593')
+

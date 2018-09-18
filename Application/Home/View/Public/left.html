@@ -1,0 +1,18 @@
+<div class="contact">
+            	<h4>{$Think.lang.lianxi}</h4>
+              	<img src="__PUBLIC__/img/jianjieIMG01.png"/>
+                <p class="p1">{$contact.l_name}</p>
+                <p>{$Think.lang.dianhua}：{$contact.l_tel1}</p>
+                <p>{$Think.lang.chuanzhen}：{$contact.l_fax}</p>
+                <p>{$Think.lang.dizhi}：{$contact.l_addr}</p>
+                <p>{$Think.lang.youxiang}：{$contact.l_email}</p>
+            </div>
+          	
+            <div class="newsCenter">
+            	<h4>{$Think.lang.xinwencenter}</h4>
+                <ul>
+                <foreach name="hotnews" item='v'>
+                	<li><a href="__MODULE__/News/detail/nid/{$v.n_id}.html">{$v.n_title|cutstr=13}</a></li>
+               </foreach> 	
+                </ul>
+            </div>

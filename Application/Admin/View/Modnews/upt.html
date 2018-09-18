@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>新闻添加</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="{$news.n_keys}" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!-- Bootstrap Core CSS -->
+<link href="__PUBLIC__/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="__PUBLIC__/css/style.css" rel='stylesheet' type='text/css' />
+<!-- Graph CSS -->
+<link href="__PUBLIC__/css/lines.css" rel='stylesheet' type='text/css' />
+<link href="__PUBLIC__/css/font-awesome.css" rel="stylesheet"> 
+<!-- jQuery -->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<!----webfonts--->
+<!---//webfonts--->  
+<!-- Nav CSS -->
+<link href="__PUBLIC__/css/custom.css" rel="stylesheet">
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/js/metisMenu.min.js"></script>
+<script src="__PUBLIC__/js/custom.js"></script>
+<!-- Graph JavaScript -->
+<script src="__PUBLIC__/js/d3.v3.js"></script>
+<script src="__PUBLIC__/js/rickshaw.js"></script>
+<script type="text/javascript" src="__ROOT__/library/kindeditor/kindeditor.js"></script>
+<script type="text/javascript">
+	//加载编辑器
+	var editor;
+	var eneditor;
+	KindEditor.ready(function(e){
+		editor=e.create('[name=n_content]',{
+			'width':"800px",
+			'height':'100px'
+		});
+		eneditor=e.create('[name=enn_content]',{
+			'width':"800px",
+			'height':'100px'
+		});
+	})
+	function tijiao(){
+		if(document.frm.n_title.value==''){
+			alert("文章标题不能为空！");
+			document.frm.n_title.focus();
+			return false;
+		}else if(document.frm.n_info.value==''){
+			alert("文章简介不能为空！");
+			document.frm.n_info.focus();
+			return false;
+		}else if(editor.html()==''){
+			alert("文章内容不能为空！");
+			editor.focus();
+			return false;
+		}else if(document.frm.enn_title.value==''){
+			alert("English文章标题不能为空！");
+			document.frm.enn_title.focus();
+			return false;
+		}else if(document.frm.enn_info.value==''){
+			alert("English文章简介不能为空！");
+			document.frm.enn_info.focus();
+			return false;
+		}else if(eneditor.html()==''){
+			alert("English文章内容不能为空！");
+			eneditor.focus();
+			return false;
+		}
+	}
+	/* function shoutiao(id){
+		var xuanxiang=id.value;
+		if(xuanxiang=='0'){
+			//隐藏添加图片栏
+			$("#tupian").css("display","none");
+		}else if(xuanxiang=='1'){
+			//显示添加图片栏
+			$("#tupian").css("display","block");
+		}
+	} */
+	function tuichu(){
+		location="__MODULE__/Modnews/index.html";
+	}
+</script>
+</head>
+<body>
+<div id="wrapper">
+     <!-- Navigation -->
+        <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <!-- 加载头部 -->
+        <include file='Public:top'/>
+			
+        <!-- 加载左边部分 -->
+        <include file='Public:left'/>
+            <!-- /.navbar-static-side -->
+        </nav>
+	    <div id="page-wrapper">
+		        <div class="graphs">
+		        	<div>
+						<div class="clearfix">
+							<h3 class="content-title">新闻添加</h3>
+						</div>
+						<div class="description" >{$msg.role}</div>
+						<div class="col-sm-12">
+                                <a href="__MODULE__/Modnews/index.html"  class="btn btn-secondary btn-lo pull-right">查看所有新闻</a>
+                            </div>
+						<div class="clearfix" style="margin-bottom:8px;"></div> 
+					</div>
+					<div class="copy">
+						<!-- 网站内容 -->
+						<form name="frm" action="__MODULE__/Modnews/save/newsId/{$news.n_id}.html" method="post" enctype="multipart/form-data" onsubmit="return tijiao()">
+						<table>
+							<tr align="left">
+								<td>所属分类：</td>
+								<td colspan='2'>
+								<if condition="$news.n_cate == '公司新闻'">
+									<input type="radio" name="n_cate" value="公司新闻" checked/>公司新闻
+									&nbsp;&nbsp;
+									<input type="radio" name="n_cate" value="行业新闻"/>行业新闻
+								<else/>
+									<input type="radio" name="n_cate" value="公司新闻"/>公司新闻
+									&nbsp;&nbsp;
+									<input type="radio" name="n_cate" value="行业新闻" checked/>行业新闻
+								</if>
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>关键字：</td>
+								<td colspan='2'><input type="text" size="50" name="n_keys"  value="{$news.n_keys}"/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>文章标题：</td>
+								<td colspan='2'><input type="text" size="50" name="n_title" value="{$news.n_title}"/></td>
+							</tr>
+							
+							<tr>
+								<td colspan='3'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>新闻(简介)：</td>
+								<td colspan='2'><textarea cols='60' rows='1' name="n_info">{$news.n_info}</textarea><font color='red'>必填</font></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>显示图片：</td>
+								<td>
+								<if condition="$news.n_picture != '0'">
+								<img src="__PUBLIC__/images/{$news.n_picture}" title="" alt="" width="50" height="40"/>
+								<else/>
+								<img src="__PUBLIC__/images/wutu.png" title="" alt="" width="50" height="40"/>
+								</if>
+								</td>
+								<td><input id='tupian' type="file" name="upload[]" multiple="multiple"/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>文章内容：</td>
+								<td colspan='2'><textarea name="n_content">{$news.n_content}</textarea></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td colspan='3'>**********英文部分**********</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>English标题：</td>
+								<td colspan='2'><input type="text" size="50" name="enn_title" value="{$news.enn_title}"/></td>
+							</tr>
+							
+							<tr>
+								<td colspan='3'>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>English(简介)：</td>
+								<td colspan='2'><textarea cols='60' rows='1' name="enn_info">{$news.enn_info}</textarea><font color='red'>必填</font></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td>English图片：</td>
+								<td>
+								<if condition="$news.enn_picture != null">
+								<img src="__PUBLIC__/images/{$news.enn_picture}" title="" alt="" width="50" height="40"/>
+								<else/>
+								<img src="__PUBLIC__/images/wutu.png" title="" alt="" width="50" height="40"/>
+								</if>
+								</td>
+								<td><input id='tupian' type="file" name="enupload[]" multiple="multiple"/></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>English内容：</td>
+								<td colspan='2'><textarea name="enn_content">{$news.enn_content}</textarea></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td colspan='2'><input type="submit" value="确认修改"/>&nbsp;&nbsp;<input onclick="tuichu()" type="button" value="退出编辑"/></td>
+							</tr>
+						</table>
+						</form>
+				    </div>
+				</div>
+	      </div> 
+      <!-- /#page-wrapper -->
+   </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</body>
+</html>

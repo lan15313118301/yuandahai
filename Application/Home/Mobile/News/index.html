@@ -1,0 +1,33 @@
+<include file="Public:header" />
+
+<section> 
+  <!--百科导航-->
+  <div class="t-ctn b-ctn">
+    <h3>新闻资讯</h3>
+    <ul>
+      <li><a href="__MODULE__/News/index/n_cate/gongsi.html">{$Think.lang.gongsixinwen}</a></li>
+                	<li><a href="__MODULE__/News/index/n_cate/hangye.html">{$Think.lang.hangyexinwen}</a></li>
+    </ul>
+  </div>
+</section>
+<div class="b-main">
+  <h3>最新动态</h3>
+  <ul>
+  	  <foreach name="news" item="v">
+      			<li><a href="__MODULE__/News/detail/nid/{$v.n_id}.html"> <img src="__PUBLIC__/images/{$v.n_picture}" width="218" height="152">
+      <h3>{$v.n_title|cutstr=20} </h3>
+      <p class="contentbox">{$v.n_info|cutstr=110} </p>
+      </a></li>
+      
+            	
+             </foreach>
+             
+             
+        
+    
+      
+    
+  </ul>
+</div>
+
+<include file="Public:footer" />

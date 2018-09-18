@@ -1,0 +1,193 @@
+<include file="Public/header"/>
+<h1 style="display: none;" id="Slidedown_SlideBanner"></h1>
+<script src="__PUBLIC__/qianjs/index.js"></script>
+<script src="__PUBLIC__/qianjs/common.js"></script>
+<script>
+	
+		function h(){
+			var height = $('.bannerImg li img').height();
+			//alert(height);
+			$('.banner').css('height',height);	
+		}
+	
+</script>
+
+<!--搜索search-End-->
+<div class="viewport" style="width: 640px; height: 420px; overflow: hidden;">
+  <div class="flipsnap bannerControl" >
+  	
+    <div class="item"><a href="{$v.href}" data-transition="flip"><img data-original="" src="__PUBLIC__/mobile/img/banner1.jpg" alt="" title="" class="lazy" ></a></div>
+  	
+    <div class="item"><a href="{$v.href}" data-transition="flip"><img data-original="" src="__PUBLIC__/mobile/img/banner2.jpg" alt="" title="" class="lazy" ></a></div>
+    
+  </div>
+</div>
+
+<div class="pointer"></div>
+<!--大图轮播-End--> 
+<!--产品导航-->
+<section>
+  <div class="summarize">
+        <div class="sumHead">
+        	<h3>{$Think.lang.chanpingaishu}</h3>
+        </div>
+        <div class="sumContent">
+        	<ul class="clearfix">
+            	<li>
+                	<img src="__PUBLIC__/images/{$gaishu[0].g_picture}" width="297" height="253">
+                    <div class="liBox">
+                    	<p align="center" >{$gaishu[0].g_name}</p>
+                        <span>{$gaishu[0].g_content}</span>
+                    </div>
+                </li>
+            	<li>
+                	
+                    <div class="liBox">
+                    	<p align="center">{$gaishu[1].g_name} </p>
+                        <span>{$gaishu[1].g_content}</span>
+                    </div>
+                    <img src="__PUBLIC__/images/{$gaishu[1].g_picture}" width="297" height="253">
+                </li>
+            	<li>    
+                <img src="__PUBLIC__/images/{$gaishu[2].g_picture}" width="297" height="253">            	
+                    <div class="liBox">
+                    	<p align="center">{$gaishu[2].g_name}  </p>
+                        <span>{$gaishu[2].g_content}</span>
+                    </div>
+                    
+                </li>
+            	<li>                	
+                    <div class="liBox">
+                    	<p align="center">{$gaishu[3].g_name} </p>
+                        <span>{$gaishu[3].g_content}</span>
+                    </div>
+                    <img src="__PUBLIC__/images/{$gaishu[3].g_picture}" width="297" height="253">
+                </li>
+            </ul>
+    </div>
+    </div>
+  <b class="main-product-b2"> </b></section>
+  <div style="clear:both"></div>
+  
+  <div class="detail clearfix">
+    <div class="deIn clearfix">
+    	<div class="deinRight">
+        	<h4>{$Think.lang.gongsijianjie}<span>/PROFILE</span></h4>
+            {$contact.l_content|cutstr=300}
+            <br/><br/>
+			<a href="__MODULE__/Company/index.html" class="reMore">READ  MORE>></a>
+        </div>
+    </div>	
+     <div style="clear:both"></div>   
+</div>
+  
+  
+<!--——————产品详情 开始——————-->
+<div class="showAll">
+<div class="show">
+	<div class="productShow">
+    	<h2>{$Think.lang.gongsishili}</h2>
+    </div>
+</div>
+<div class="qiehuan">
+	<ul class="tabChange clearfix">
+        	<li class="current" style="cursor:pointer;">{$Think.lang.shengchanyanfa}</li>
+            <li style="cursor:pointer;">{$Think.lang.jianceshebei}</li>
+    </ul>
+</div>
+<div class="imgShow">
+<!--ul01  start-->
+	<ul class="muxiang clearfix">
+	<foreach name="jixie" item="v">
+    	<li>
+            <a href="__MODULE__/Product/prodisplay/pid/{$v.p_id}.html">
+                <img src="__PUBLIC__/images/{$v.p_picture}" width="286" height="209"/>
+            
+            <div class="muText">{$v.p_name}</div>
+            <div class="hoverDetail">
+            	<i class="eyes"></i>
+            	{$v.p_intro}
+            </div>
+			</a>
+        </li>
+       </foreach> 
+    </ul>
+<!--ul01  end-->  
+
+<!--ul02  start--> 
+	<ul class="chukoubaozhuang clearfix">
+	<foreach name='dianqi' item='v'>
+    	<li>
+            <a href="__MODULE__/Product/prodisplay/pid/{$v.p_id}.html">
+                <img src="__PUBLIC__/images/{$v.p_picture}" width="286" height="209"/>
+            
+            <div class="muText">{$v.p_name}</div>
+            <div class="hoverDetail">
+            	<i class="eyes"></i>
+            	{$v.p_intro}
+            </div>
+			</a>
+        </li>
+      </foreach>  
+    </ul>
+<!--ul02  end-->
+</div>
+<div style="clear:both"></div>
+</div>
+<!--——————产品展示 结束——————-->
+
+<!--——————新闻中心 开始——————-->
+	<div class="newsCenter">
+    	<div class="ncHead">
+        	<h3>{$Think.lang.xinwenzhongxin}</h3>
+        </div> 
+        <div class="ncIn clearfix">
+        	<div class="ncinLeft">
+            	<div class="ncinlTop clearfix">
+                	<img src="__PUBLIC__/images/{$gongsi[0].n_picture}" width="171" height="135">
+                    <div>
+                    	<h4>{$gongsi[0].n_title|cutstr=20}</h4>
+                        <p>{$gongsi[0].n_info|cutstr=55}</p>
+                        <a href="__MODULE__/News/detail/nid/{$gongsi[0].n_id}.html">MORE+</a>
+                    </div>
+                </div>
+                <div class="newsList">
+                	<ul>
+                		<for start='1' end='$gongcount'>
+                    	<li>
+                        	<a href="__MODULE__/News/detail/nid/{$gongsi[$i].n_id}.html" class="clearfix newsText">
+                            	<span class="spanleft">·{$gongsi[$i].n_title|cutstr=20}</span>
+                                <span class="spanright">{$gongsi[$i].n_time|date='Y—m-d',###}</span>
+                            </a>
+                        </li>
+                      </for>  
+                    </ul>
+                </div>
+          </div>
+            
+        </div>
+    </div>
+<!--——————新闻中心 结束——————-->
+<div style="clear:both"></div>
+<!--——————合作伙伴 开始——————-->
+<div class="partner">
+        <div class="phead">
+            <h2>{$Think.lang.hezuohuoban}</h2>
+        </div>
+        <div class="sanjiao"></div>
+    
+  <div class="parterImgAll">
+        <div class="clearfix">
+        <foreach name="hezuo" item="v">
+           <img src="__PUBLIC__/images/{$v.co_picture}" width="200" height="150">
+         </foreach>  
+      </div>
+    </div>
+</div>
+<!--——————合作伙伴 结束——————-->  
+  
+  
+  
+
+
+<include file="Public/footer"/>

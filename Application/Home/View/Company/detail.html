@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$Think.lang.title}-{$Think.lang.guanyu}</title>
+<meta http-equiv="description" content="{$company1.cm_keys}">
+<meta name="keywords" content="{$company1.cm_keys}" />
+<link href="__PUBLIC__/qiancss/common.css" type="text/css" rel="stylesheet"/>
+<link href="__PUBLIC__/qiancss/about.css" type="text/css" rel="stylesheet"/>
+<script src="__PUBLIC__/qianjs/jquery-1.7.2.min.js"></script>
+<script src="__PUBLIC__/qianjs/common.js"></script>
+<script type="text/javascript">
+	//自动获取左边的高度
+		$().ready(function(){
+			var h=$(".ciLeft").height();
+			//将高度的值赋给右边的高度
+			$(".ciRight").css('min-height',h);
+		});
+</script>
+</head>
+
+<body>
+
+<!--——————标题栏 开始——————-->
+	<include file="Public:top"/>
+	<div class="titleAll">
+	<div class="title clearfix">
+    	
+		<include file="Public:logo"/>
+        
+        <div class="tRight">
+        	<!--——————导航栏 开始——————-->
+            <div class="nav">
+                 <ul class="clearfix">
+                    <li><a href="__MODULE__/Index/index.html">{$Think.lang.shouye}</a></li>
+                    <li class="current differ"><a href="__MODULE__/Company/index.html">{$Think.lang.guanyu}</a></li>
+                    <li><a href="__MODULE__/News/index.html">{$Think.lang.xinwen}</a></li>
+                    <li><a href="__MODULE__/Product/index.html">{$Think.lang.chanpin}</a></li>
+                    <li><a href="__MODULE__/Sale/index.html">{$Think.lang.xiaoshou}</a></li>
+                    <li><a href="__MODULE__/Emyployee/index.html">{$Think.lang.renli}</a></li>
+                    <li><a href="__MODULE__/Contact/index.html">{$Think.lang.lianxi}</a></li>
+                </ul>
+            </div>
+<!--——————导航栏 结束——————-->
+        </div>
+    </div>
+</div>
+<!--——————标题栏 结束——————-->
+
+<!--——————内容 开始——————-->
+<div class="content">
+	<!--——————banner 开始——————-->
+    <div class="banner">
+    	<img src="__PUBLIC__/img/guanyuBanner.png"/>
+    </div>
+    <!--——————banner 结束——————-->
+    
+    <!--——————标题 开始——————-->
+    <!--<div class="cHead"></div>-->
+    <!--——————标题 结束——————-->
+    
+    <div class="cIn clearfix">
+   	  
+   	  <!-- 加载左侧页面 -->
+   	  <div class="ciLeft">
+        	<div class="cilTop">
+            	<h3>{$Think.lang.guanyu}</h3>
+            </div>
+            <div class="fenlei">
+           	  <ul>
+           	  <foreach name="company" item="v">
+                	<li><a href="__MODULE__/Company/detail/cmid/{$v.cm_id}.html">{$v.cm_name}</a></li>
+               </foreach> 	
+                	
+                </ul>
+            </div>
+            
+       		<!-- 加载左侧页面 -->
+       		<include file="Public:left"/>
+       		
+        </div>
+        
+        
+      <div class="ciRight gongsijianjie current">
+       		<div class="cirHead clearfix">
+            	<h3>{$company1.cm_name}</h3>
+                <p>{$Think.lang.current}：<a href="index.html">{$Think.lang.home}</a>><a href="__MODULE__/Company/index.html">{$Think.lang.guanyu}</a>><a href="__MODULE__/Company/detail/cmid/{$company1.cm_id}.html">{$company1.cm_name}</a></p>
+          	</div>
+            <div class="text">
+            {$company1.cm_content}
+            </div>
+        </div>
+        <!--ciRight-->
+        
+        
+    </div>
+    
+</div>
+<!--——————内容 结束——————-->
+
+<include file="Public:bottom"/>
+
+<!--——————footer2 结束——————-->
+
+</body>
+</html>
